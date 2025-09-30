@@ -26,12 +26,14 @@ Material:
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
   - _OPERATION_SELECTOR_MULTIPLY_NOISES
-  - _RGB_DISTORSION_SELECTOR_A
+  - _RGB_DISTORSION_SELECTOR_NOISE_R
   - _TEXTURE1_CHANNEL_R
   - _TEXTURE2_CHANNEL_R
   m_InvalidKeywords:
   - _ENUM_A
   - _OPERATION_MULTIPLY
+  - _RGB_DISTORSION_SELECTOR_A
+  - _RGB_DISTORSION_SELECTOR_CHANNEL_R
   - _SELECTNOISE_A
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -45,7 +47,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _DistorsionNoise:
-        m_Texture: {fileID: 2800000, guid: fb3a664c26b13674f88a11f52776fe66, type: 3}
+        m_Texture: {fileID: 2800000, guid: b617476174a7a0444972b33a348252ce, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Texture2D:
@@ -73,41 +75,41 @@ Material:
     - _ColorFromParticle: 0
     - _Distorsion_Amount: 0
     - _ENUM: 0
-    - _GeneralOpacity: 0
+    - _GeneralOpacity: 1
     - _HorizontalSpeed: 1
-    - _Intensity: 1.22
+    - _Intensity: 20
     - _OPERATION: 0
     - _OPERATION_SELECTOR: 0
-    - _OpacityOffset: 0
-    - _Opacity_Texture1: 0
-    - _Opacity_Texture2: 0
+    - _OpacityOffset: 1
+    - _Opacity_Texture1: 1
+    - _Opacity_Texture2: 1
     - _QueueControl: 0
     - _QueueOffset: 0
     - _RGB_DISTORSION_SELECTOR: 0
     - _SELECTNOISE: 0
     - _TEXTURE1: 0
     - _TEXTURE2: 0
-    - _Texture1_Contrast: 0
-    - _Texture1_Offset: 0
-    - _Texture2_Contrast: 0
+    - _Texture1_Contrast: 1
+    - _Texture1_Offset: 1
+    - _Texture2_Contrast: 1
     - _Texture2_Offset: 0
     - _VertexColorVisualizator: 0
     - _VerticalSpeed: 0
     - _X_Speed_DistorsionNoise: 0
-    - _X_Speed_Texture1: 0
-    - _X_Speed_Texture2: 0
-    - _X_Tilling_DistorsionNoise: 0
-    - _X_Tilling_Texture1: 0
-    - _X_Tilling_Texture2: 0
+    - _X_Speed_Texture1: 1
+    - _X_Speed_Texture2: 1
+    - _X_Tilling_DistorsionNoise: 1
+    - _X_Tilling_Texture1: 1
+    - _X_Tilling_Texture2: 1
     - _Y_Speed_DistorsionNoise: 0
-    - _Y_Speed_Texture1: 0
-    - _Y_Speed_Texture2: 0
-    - _Y_Tilling_DistorsionNoise: 0
-    - _Y_Tilling_Texture1: 0
-    - _Y_Tilling_Texture2: 0
+    - _Y_Speed_Texture1: 1
+    - _Y_Speed_Texture2: 1
+    - _Y_Tilling_DistorsionNoise: 1
+    - _Y_Tilling_Texture1: 1
+    - _Y_Tilling_Texture2: 1
     m_Colors:
     - _BaseColor1: {r: 1, g: 0, b: 0, a: 0}
-    - _BaseColor2: {r: 0.8015804, g: 1, b: 0, a: 0}
+    - _BaseColor2: {r: 1, g: 1, b: 1, a: 0}
     - _Tilling: {r: 2.72, g: 4.32, b: 0, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
