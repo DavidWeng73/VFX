@@ -80,7 +80,7 @@ Material:
     - _Intensity: 20
     - _OPERATION: 0
     - _OPERATION_SELECTOR: 0
-    - _OpacityOffset: 1
+    - _OpacityOffset: 0
     - _Opacity_Texture1: 1
     - _Opacity_Texture2: 1
     - _QueueControl: 0
