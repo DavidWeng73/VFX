@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  version: 9
+  version: 10
 --- !u!21 &2100000
 Material:
   serializedVersion: 8
@@ -73,14 +73,15 @@ Material:
     m_Ints: []
     m_Floats:
     - _ColorFromParticle: 0
-    - _Distorsion_Amount: 0
+    - _Distorsion_Amount: 0.234
     - _ENUM: 0
     - _GeneralOpacity: 1
     - _HorizontalSpeed: 1
-    - _Intensity: 20
+    - _Intensity: 7.48
     - _OPERATION: 0
     - _OPERATION_SELECTOR: 0
-    - _OpacityOffset: 1
+    - _OpacityContrast: 1
+    - _OpacityOffset: 0
     - _Opacity_Texture1: 1
     - _Opacity_Texture2: 1
     - _QueueControl: 0
@@ -108,8 +109,8 @@ Material:
     - _Y_Tilling_Texture1: 1
     - _Y_Tilling_Texture2: 1
     m_Colors:
-    - _BaseColor1: {r: 1, g: 0, b: 0, a: 0}
-    - _BaseColor2: {r: 1, g: 1, b: 1, a: 0}
+    - _BaseColor1: {r: 0.7188425, g: 0, b: 1, a: 0}
+    - _BaseColor2: {r: 1, g: 0.9716981, b: 0.99681604, a: 0}
     - _Tilling: {r: 2.72, g: 4.32, b: 0, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
