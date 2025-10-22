@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-8913072111339039492
+--- !u!114 &-506219939226908564
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
@@ -20,7 +20,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Smoke
+  m_Name: FireballExterior
   m_Shader: {fileID: -6465566751694194690, guid: cd71495a620693a408cd1cd63338ec1b, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -45,7 +45,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Texture2D:
-        m_Texture: {fileID: 2800000, guid: cfac747ef2f94264384fb9d4b8a5ea90, type: 3}
+        m_Texture: {fileID: 2800000, guid: b617476174a7a0444972b33a348252ce, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Texture2DAsset_5728c0cc25d84947a8e8e9031ec27bf6_Out_0_Texture2D:
@@ -66,31 +66,31 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _ColorFromParticle: 1
+    - _ColorFromParticle: 0
     - _Distorsion_Amount: 0
-    - _GeneralOpacity: 0.238
-    - _Intensity: 1
+    - _GeneralOpacity: 1
+    - _Intensity: 80.9
     - _OpacityContrast: 1
-    - _OpacityOffset: 1
-    - _Opacity_Texture1: 0.852
+    - _OpacityOffset: 0
+    - _Opacity_Texture1: 0.009
     - _QueueControl: 0
     - _QueueOffset: 0
     - _RGB_DISTORSION_SELECTOR: 0
     - _RGB_DISTORSION_SELECTOR_1: 0
     - _TEXTURE1: 0
-    - _Texture1_Contrast: 3.22
-    - _Texture1_Offset: 0.157
+    - _Texture1_Contrast: 1
+    - _Texture1_Offset: -0.33
     - _VertexColorVisualizator: 0
     - _X_Speed_DistorsionNoise: 0
     - _X_Speed_Texture1: 0
     - _X_Tilling_DistorsionNoise: 0
     - _X_Tilling_Texture1: 1
     - _Y_Speed_DistorsionNoise: 0
-    - _Y_Speed_Texture1: 0
+    - _Y_Speed_Texture1: -1
     - _Y_Tilling_DistorsionNoise: 0
     - _Y_Tilling_Texture1: 1
     m_Colors:
-    - _BaseColor1: {r: 1, g: 1, b: 1, a: 0}
-    - _BaseColor2: {r: 1, g: 1, b: 1, a: 0}
+    - _BaseColor1: {r: 1, g: 0, b: 0, a: 0}
+    - _BaseColor2: {r: 1, g: 0.6766881, b: 0, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
