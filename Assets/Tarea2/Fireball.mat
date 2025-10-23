@@ -56,17 +56,17 @@ Material:
     - _ColorFromParticle: 0
     - _Distorsion_Amount: 0
     - _GeneralOpacity: 1
-    - _Intensity: 50
+    - _Intensity: 7.43
     - _OpacityContrast: 1
-    - _OpacityOffset: 1
-    - _Opacity_Texture1: 0.597
+    - _OpacityOffset: 0
+    - _Opacity_Texture1: 0.324
     - _QueueControl: 0
     - _QueueOffset: 0
     - _RGB_DISTORSION_SELECTOR: 0
     - _RGB_DISTORSION_SELECTOR_1: 0
     - _TEXTURE1: 2
     - _Texture1_Contrast: 1
-    - _Texture1_Offset: -0.008
+    - _Texture1_Offset: -0.07
     - _VertexColorVisualizator: 0
     - _X_Speed_DistorsionNoise: 0
     - _X_Speed_Texture1: 0
@@ -78,7 +78,7 @@ Material:
     - _Y_Tilling_Texture1: 1
     m_Colors:
     - _BaseColor1: {r: 1, g: 0, b: 0.079761505, a: 0}
-    - _BaseColor2: {r: 0.95437217, g: 1, b: 0, a: 0}
+    - _BaseColor2: {r: 0.9529412, g: 1, b: 0, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
 --- !u!114 &8127319874425299535
