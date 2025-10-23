@@ -59,7 +59,7 @@ Material:
     - _Intensity: 1
     - _OpacityContrast: 1
     - _OpacityOffset: 0
-    - _Opacity_Texture1: 1
+    - _Opacity_Texture1: 0.776
     - _QueueControl: 0
     - _QueueOffset: 0
     - _RGB_DISTORSION_SELECTOR: 0

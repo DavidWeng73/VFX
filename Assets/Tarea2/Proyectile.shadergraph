@@ -2825,8 +2825,8 @@
     "m_ObjectId": "279b53cebaf24bec98d93137548d445f",
     "m_Title": "DISTORSION NOISE",
     "m_Position": {
-        "x": -2155.199951171875,
-        "y": 1275.199951171875
+        "x": -2155.0,
+        "y": 1277.0
     }
 }
 

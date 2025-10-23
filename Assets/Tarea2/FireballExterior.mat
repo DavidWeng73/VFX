@@ -82,7 +82,7 @@ Material:
     - _Texture1_Offset: -0.1
     - _VertexColorVisualizator: 0
     - _X_Speed_DistorsionNoise: 0
-    - _X_Speed_Texture1: 0
+    - _X_Speed_Texture1: 0.02
     - _X_Tilling_DistorsionNoise: 0
     - _X_Tilling_Texture1: 3.87
     - _Y_Speed_DistorsionNoise: 0
