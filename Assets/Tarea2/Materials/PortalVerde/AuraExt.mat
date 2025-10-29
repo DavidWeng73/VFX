@@ -1,5 +1,18 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-2751596508829182891
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.RenderPipelines.Universal.Editor::UnityEditor.Rendering.Universal.AssetVersion
+  version: 10
 --- !u!21 &2100000
 Material:
   serializedVersion: 8
@@ -7,8 +20,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: EstelaPortal
-  m_Shader: {fileID: -6465566751694194690, guid: cd71495a620693a408cd1cd63338ec1b, type: 3}
+  m_Name: AuraExt
+  m_Shader: {fileID: -6465566751694194690, guid: 3fa53297d7ca9b44d995fc74153927db, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
@@ -28,11 +41,11 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _DistorsionNoise:
-        m_Texture: {fileID: 2800000, guid: 5e07b04a68a27454d87f6e1d9aa03c61, type: 3}
+        m_Texture: {fileID: 2800000, guid: e995421d134ac194d8878c66c57b74a8, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Texture2D:
-        m_Texture: {fileID: 2800000, guid: 04d2e2c8eddbdfe479ea73b4599b990c, type: 3}
+        m_Texture: {fileID: 2800000, guid: 5a993d3af18b1bb459456273939f16a0, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Texture2DAsset_5728c0cc25d84947a8e8e9031ec27bf6_Out_0_Texture2D:
@@ -53,44 +66,31 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _ColorFromParticle: 0
+    - _ColorFromParticle: 1
     - _Distorsion_Amount: 0
     - _GeneralOpacity: 1
-    - _Intensity: 50
+    - _Intensity: 234.9
     - _OpacityContrast: 1
     - _OpacityOffset: 0
-    - _Opacity_Texture1: 1
+    - _Opacity_Texture1: 0.83
     - _QueueControl: 0
     - _QueueOffset: 0
     - _RGB_DISTORSION_SELECTOR: 0
     - _RGB_DISTORSION_SELECTOR_1: 0
     - _TEXTURE1: 0
     - _Texture1_Contrast: 1
-    - _Texture1_Offset: -0.22
+    - _Texture1_Offset: -0.113
     - _VertexColorVisualizator: 0
     - _X_Speed_DistorsionNoise: 0
-    - _X_Speed_Texture1: 1
-    - _X_Tilling_DistorsionNoise: 1
+    - _X_Speed_Texture1: 0
+    - _X_Tilling_DistorsionNoise: 0
     - _X_Tilling_Texture1: 1
     - _Y_Speed_DistorsionNoise: 0
-    - _Y_Speed_Texture1: -0.5
-    - _Y_Tilling_DistorsionNoise: 1
+    - _Y_Speed_Texture1: 0
+    - _Y_Tilling_DistorsionNoise: 0
     - _Y_Tilling_Texture1: 1
     m_Colors:
-    - _BaseColor1: {r: 0.45573092, g: 1, b: 0, a: 0}
-    - _BaseColor2: {r: 0.8689964, g: 1, b: 0.33490568, a: 0}
+    - _BaseColor1: {r: 0.2957871, g: 1, b: 0, a: 0}
+    - _BaseColor2: {r: 0.79784787, g: 1, b: 0, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
---- !u!114 &3605656663527533294
-MonoBehaviour:
-  m_ObjectHideFlags: 11
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Unity.RenderPipelines.Universal.Editor::UnityEditor.Rendering.Universal.AssetVersion
-  version: 10

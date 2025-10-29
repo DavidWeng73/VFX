@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: RainCircle
-  m_Shader: {fileID: -6465566751694194690, guid: cd71495a620693a408cd1cd63338ec1b, type: 3}
+  m_Shader: {fileID: -6465566751694194690, guid: 3fa53297d7ca9b44d995fc74153927db, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
@@ -53,13 +53,13 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _ColorFromParticle: 0
+    - _ColorFromParticle: 1
     - _Distorsion_Amount: 0
     - _GeneralOpacity: 1
     - _Intensity: 1
     - _OpacityContrast: 1
     - _OpacityOffset: 0
-    - _Opacity_Texture1: 0.776
+    - _Opacity_Texture1: 1
     - _QueueControl: 0
     - _QueueOffset: 0
     - _RGB_DISTORSION_SELECTOR: 0
