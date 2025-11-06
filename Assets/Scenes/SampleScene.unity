@@ -913,6 +913,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3733353833765518449, guid: eba3e6f4105872e45b54ef80c6d08454, type: 3}
+      propertyPath: InitialModule.startSpeed.scalar
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3733353833765518449, guid: eba3e6f4105872e45b54ef80c6d08454, type: 3}
+      propertyPath: InitialModule.startSpeed.minScalar
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3733353833765518449, guid: eba3e6f4105872e45b54ef80c6d08454, type: 3}
+      propertyPath: InitialModule.startSpeed.minMaxState
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 7703077411028759098, guid: eba3e6f4105872e45b54ef80c6d08454, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -931,7 +943,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8028721834835120908, guid: eba3e6f4105872e45b54ef80c6d08454, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8564264799686994664, guid: eba3e6f4105872e45b54ef80c6d08454, type: 3}
+      propertyPath: NoiseModule.enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8564264799686994664, guid: eba3e6f4105872e45b54ef80c6d08454, type: 3}
       propertyPath: InitialModule.startSize.scalar
