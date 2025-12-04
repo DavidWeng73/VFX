@@ -6126,16 +6126,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 54753bcd18add31419e25c5901e3121c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::OpacityParticlesTrigger
-  targetRenderer: {fileID: 1759186736}
-  opacityPropertyName: _OpacityOffset
+  targetMaterial: {fileID: 2100000, guid: 07c6fd998af48eb4baa20a4b60fca76e, type: 2}
+  floatProperty: _OpacityOffset
+  value: 1
   particleSystem: {fileID: 759414178}
-  targetValue: 1
-  tolerance: 0.001
---- !u!137 &1759186736 stripped
-SkinnedMeshRenderer:
-  m_CorrespondingSourceObject: {fileID: -230797604142957423, guid: 167ba0ec45b89c741b8dcfe18eb4e4f6, type: 3}
-  m_PrefabInstance: {fileID: 431836139}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1978938775
 GameObject:
   m_ObjectHideFlags: 0

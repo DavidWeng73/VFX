@@ -2,34 +2,28 @@
 
 public class OpacityParticlesTrigger : MonoBehaviour
 {
-    public Renderer targetRenderer;                
-    public string opacityPropertyName = "_OpacityOffset";
+    public Material targetMaterial;
+    public string floatProperty = ("_OpacityOffset");
+
+    [Range(-1f, 1f)]
+    public float value = 1f;
+
+    [Header("Particle Settings")]
     public ParticleSystem particleSystem;
 
-    public float targetValue = 1f;                
-    public float tolerance = 0.001f;                
+
 
     void Update()
     {
-        if (targetRenderer == null || particleSystem == null) return;
+        targetMaterial.SetFloat(floatProperty, value);
 
-        Material mat = targetRenderer.material;
-
-        if (!mat.HasProperty(opacityPropertyName)) return;
-
-        float currentValue = mat.GetFloat(opacityPropertyName);
-
-        bool isDifferentFrom1 = Mathf.Abs(currentValue - targetValue) > tolerance;
-
-        if (isDifferentFrom1)
+        if (value >= 1 || value <= -1)
         {
-            if (!particleSystem.isPlaying)
-                particleSystem.Play();
+            particleSystem.Stop();
         }
         else
         {
-            if (particleSystem.isPlaying)
-                particleSystem.Stop();
+            particleSystem.Play();
         }
     }
 }
