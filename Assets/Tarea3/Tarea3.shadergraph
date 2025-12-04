@@ -2069,10 +2069,10 @@
     "m_Hidden": false,
     "m_PerRendererData": false,
     "m_customAttributes": [],
-    "m_Value": 0.0,
-    "m_FloatType": 0,
+    "m_Value": 1.0,
+    "m_FloatType": 1,
     "m_RangeValues": {
-        "x": 0.0,
+        "x": -1.0,
         "y": 1.0
     },
     "m_SliderType": 0,
@@ -4096,8 +4096,8 @@
     "m_ObjectId": "4a4f2ca9d4b646d880a2ebea67162623",
     "m_Title": "Line",
     "m_Position": {
-        "x": -4201.60009765625,
-        "y": -3118.39990234375
+        "x": -4201.0,
+        "y": -3117.0
     }
 }
 
@@ -4107,8 +4107,8 @@
     "m_ObjectId": "4aba2a9cbfad4d73be370770211bf2e0",
     "m_Title": "Noise",
     "m_Position": {
-        "x": -3480.800048828125,
-        "y": 2024.0003662109375
+        "x": -3480.0,
+        "y": 2026.0
     }
 }
 
@@ -5721,8 +5721,8 @@
     "m_ObjectId": "7c6fe4ba35194c50b7bc8b418e234cfa",
     "m_Title": "Fressnell",
     "m_Position": {
-        "x": -2734.400146484375,
-        "y": -1124.0
+        "x": -2734.0,
+        "y": -1123.0
     }
 }
 
@@ -6270,10 +6270,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -2126.39990234375,
-            "y": 1146.39990234375,
-            "width": 131.199951171875,
-            "height": 33.60009765625
+            "x": -2126.0,
+            "y": 1146.9998779296875,
+            "width": 129.0001220703125,
+            "height": 34.0
         }
     },
     "m_Slots": [
@@ -7986,8 +7986,8 @@
     "m_ObjectId": "c194e1d40f6443edafbc34c5ac76391b",
     "m_Title": "Line",
     "m_Position": {
-        "x": -2587.2001953125,
-        "y": 920.0
+        "x": -2587.0,
+        "y": 922.0
     }
 }
 
@@ -8404,8 +8404,8 @@
     "m_ObjectId": "d1b79eb8e93c4ea78bd716d94ce63245",
     "m_Title": "Noise",
     "m_Position": {
-        "x": -5095.19970703125,
-        "y": -2014.4000244140625
+        "x": -5095.0,
+        "y": -2013.0
     }
 }
 
