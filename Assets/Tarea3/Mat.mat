@@ -46,7 +46,10 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - _Contrast: 1.12
     - _Displacement: 0
+    - _Distance: 0.1
+    - _DiterDistance: 1
     - _FressnelContrast: 59.73
     - _FressnelOffset: -0.41
     - _FressnellBrightness: 1
@@ -55,6 +58,7 @@ Material:
     - _FressnellOpacity: 1
     - _LineContrast: 1
     - _LineOffset: 0.13
+    - _OffsetTransparent: 1
     - _OpacityOffset: 1
     - _QueueControl: 0
     - _QueueOffset: 0
